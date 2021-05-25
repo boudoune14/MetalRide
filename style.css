@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Syne+Mono&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    font-family: 'Kiwi Maru', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* ******************* NAVBAR ******************* */
+
+/* **************** IMAGE PRINCIPALE ************* */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(images/concert.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 650px;
+  }
+  h1 {
+    font-family: 'Syne Mono', cursive;
+    text-align: center;
+    color: rgb(253, 250, 222);
+    font-size: 5em;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px black;
+  }
+  #premierTrait {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: rgb(253, 250, 222);
+    box-shadow: 1px 3px 2px black;
+  }
+  h3 {
+    text-align: center;
+    color:rgb(253, 250, 222);
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+  }
