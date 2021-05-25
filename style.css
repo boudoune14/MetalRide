@@ -6,11 +6,7 @@ html {
   
 body {
     font-family: 'Kiwi Maru', sans-serif;
-    padding: 0;
-    margin: 0;
 }
-/* ******************* NAVBAR ******************* */
-
 /* **************** IMAGE PRINCIPALE ************* */
 #imagePrincipale {
     padding-top: 60px;
@@ -22,7 +18,7 @@ body {
     font-family: 'Syne Mono', cursive;
     text-align: center;
     color: rgb(253, 250, 222);
-    font-size: 5em;
+    font-size: 4em;
     margin-top: 100px;
     text-shadow: 1px 3px 2px black;
   }
@@ -33,9 +29,29 @@ body {
     background-color: rgb(253, 250, 222);
     box-shadow: 1px 3px 2px black;
   }
-  h3 {
+  h2 {
     text-align: center;
     color:rgb(253, 250, 222);
     font-size: 3em;
     text-shadow: 1px 3px 2px black;
+  }
+  /**********************************DESCRIPTION***************************/
+  .description {
+    padding-bottom: 20px;
+  }
+  /**********************************ARTISTES******************************/
+  h3 {
+    font-family: "Syne Mono";
+    font-size: 2em;
+  }
+  img {
+    margin-bottom: 15%;
+  }
+  h4 {
+    font-family: "Syne Mono";
+    font-size: 3rem;
+  }
+  .bg-2 {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: rgb(253, 250, 222);
   }
