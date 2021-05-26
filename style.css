@@ -7,6 +7,11 @@ html {
 body {
     font-family: 'Kiwi Maru', sans-serif;
 }
+/**********************NAVBAR**********************/
+.navbar-brand {
+  font-family: "Syne Mono";
+  font-weight: bold;
+}
 /* **************** IMAGE PRINCIPALE ************* */
 #imagePrincipale {
     padding-top: 60px;
@@ -38,6 +43,12 @@ body {
   /**********************************DESCRIPTION***************************/
   .description {
     padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  p {
+    padding-left: 2%;
+    padding-right: 2%;
   }
   /**********************************ARTISTES******************************/
   h3 {
@@ -54,4 +65,5 @@ body {
   .bg-2 {
     background-color: rgba(0, 0, 0, 0.473);
     color: rgb(253, 250, 222);
+
   }
