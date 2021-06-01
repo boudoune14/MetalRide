@@ -170,3 +170,10 @@ body {
   textarea {
     resize: none;
   }
+/***********************************Evenements********************/
+.tremplin {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(0, 0, 0, 0.473);
+  color: #f5f5f5;
+}
